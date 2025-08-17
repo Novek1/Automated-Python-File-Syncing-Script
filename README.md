@@ -10,9 +10,15 @@ This project gave me hands-on experience with:
 ✅ File system operations in Python
 
 To execute the script, run this in Command Prompt (with the Python file available locally):
-
 python sync_script.py <source_directory> <replica_directory> -l <log_file_path>
 
+NOTES
+
+<source_directory>: Folder you want to copy files from. Must exist.
+
+<replica_directory>: Folder to sync to. If it doesn’t exist, the script will create it.
+
+-l <log_file_path>: Full path to the log file where changes will be recorded.
 
 A small step, but an important one as I continue growing in Python, Machine Learning, and Data Science. 💻
 
